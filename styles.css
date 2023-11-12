@@ -1,52 +1,50 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px 0;
-    display:block;
-    line-height: 1.5;
-   
-}
-main{
-    background-color: #eee;
-    text-align: center;
-    padding: 0 20px 20px 0;
-}
-img{
-    display: block;
-    max-width: 100%;
-    margin: 0 auto;
-    hight: auto;
-}
-.image-container{
-    background-color: #ffff;
-    padding: 10px;
-}
-.image-container p{
-    margin: 15px 0 5px;
-}
-.timeline {
-    text-align: left; 
-    max-width: 550px;
-    margin: 0 auto 20px auto;
-    line-height: 1.6;
+#main{
+  font-family: Arial, Helvetica,  sans-serif; 
+  display: block;
+  background-color: #eee;
+  line-height: 1.5;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 20px 20px 0;
 
 }
-h3{
-    padding: 20px;
+#img-div{
+  background-color: #ffff;
+  margin: 0 auto;
+  margin: 15px 0 5px;
+  padding: 10px;
+
+}
+
+#image{
+  max-width: 100%;
+  margin: 0 auto;
+  hight: auto;
+  margin: 0 auto;
+  display: block;
+}
+#img-caption{
+  text-align: center;
+}
+#tribute-info li{
+  text-align: left;
+  line-height: 1.6;
+  max-width: 550px;
+
 }
 blockquote{
-    max-width: 545px;
-    font-style: italic;
-    margin: 0 auto 50px auto;
-    text-align: left;
+  text-align: left;
+  font-style: italic;
+  max-width: 545px;
 }
-.wiki{
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
+#tribute-link {
+  color: #477ca7;
 }
-a{
-    color: #477ca7;
+#tribute-link:visited{
+  color: #74638f;
 }
-a:visited{
-    color: #74638f;
+#tribute{
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
 }
